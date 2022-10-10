@@ -1,23 +1,23 @@
 public class Employee {
-    private String full_name;
-    private String job_title;
+    private String fullName;
+    private String jobTitle;
     private String email;
     private String telephone;
     private int age;
-    public String getFull_name() {
-        return full_name;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setFull_name(String full_name) {
-        this.full_name = full_name;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
-    public String getJob_title() {
-        return job_title;
+    public String getJobTitle() {
+        return jobTitle;
     }
 
-    public void setJob_title(String job_title) {
-        this.job_title = job_title;
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
     }
 
     public String getEmail() {
@@ -47,9 +47,9 @@ public class Employee {
 
 
 
-    public Employee(String full_name, String job_title, String email, String telephone, int age) {
-        this.full_name = full_name;
-        this.job_title = job_title;
+    public Employee(String fullName, String jobTitle, String email, String telephone, int age) {
+        this.fullName = fullName;
+        this.jobTitle = jobTitle;
         this.email = email;
         this.telephone = telephone;
         this.age = age;
