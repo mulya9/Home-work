@@ -1,6 +1,8 @@
 public class Car {
     public void start(){
-        start();
+        startElectricity();
+        startCommand();
+        startFuelSystem();
     }
     private void startElectricity(){
 
